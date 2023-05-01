@@ -32,9 +32,9 @@ public class main {
     private static void task9() {
         int salary = 29000;
         float total = 0;
-        for (int i = 0; i <= 12; i++) {
-            total = total + total * 0.01f;
+        for (int i = 1; i <= 12; i++) {
             total += salary;
+            total = total + total * 0.01f;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
     }
@@ -42,7 +42,7 @@ public class main {
     private static void task8() {
         int salary = 29000;
         int total = 0;
-        for (int i = 0; i <= 12; i++) {
+        for (int i = 1; i <= 12; i++) {
             total += salary;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
